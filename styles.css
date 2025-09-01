@@ -1,0 +1,112 @@
+/* Reset dan Base Styles */
+body {
+    background-color: #f5f5dc;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    Margin-bottom: 20px;
+}
+
+h1 {
+    color: #6f4e37;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #8b7355;
+    margin-top: 0;
+}
+
+.description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #d2b48c;
+    margin: 20px 0;
+}
+
+/* Menu Section Styles */
+.menu-section h2 {
+    color: #6f4e37;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 5px;
+    font-size: 1.8em;
+}
+
+/* Menu Item Styles */
+.menu-item {
+    margin-bottom: 15px;
+}
+
+.item-name-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item h3 {
+    color: #333;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.price {
+    color: #6f4e37;
+    font-weight: bold;
+}
+
+.item-description {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.warning {
+    color: #a52a2a;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .menu-section h2 {
+        font-size: 1.5em;
+    }
+}
